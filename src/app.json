@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/first/main",
+    "pages/index/main",
+    "pages/mine/main",
+    "pages/logs/main",
+    "pages/shequn/main",
+    "pages/community/main"
+
+
+   ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3185ff",
+    "navigationBarTitleText": "公社",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fff",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+        "text": "实习",
+        "pagePath": "pages/index/main",
+        "iconPath": "static/tabs/orders.png",
+        "selectedIconPath": "static/tabs/orders-active.png"
+      },
+      {
+        "text": "租房",
+        "pagePath": "pages/logs/main",
+        "iconPath": "static/tabs/orders.png",
+        "selectedIconPath": "static/tabs/orders-active.png"
+      },
+      {
+      "text": "职言",
+      "pagePath": "pages/first/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    },
+    {
+      "text": "我的",
+      "pagePath": "pages/mine/main",
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png"
+    }
+    
+  ]
+
+  }
+}
